@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Список дел</string>
+
+    <string name="note_text">Введи текст заметки</string>
+    <string name="note_details_title">Какое дело?</string>
+    <string name="save">Сохранить</string>
+    <string name="completed">Готово?</string>
+</resources>

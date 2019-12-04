@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:fontFamily="@font/todo1"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:id="@+id/note_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minHeight="64dp"
+        android:gravity="center_vertical"
+        tools:text="some text for testing"
+        />
+
+    <CheckBox
+        android:fontFamily="@font/todo1"
+        android:id="@+id/completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/completed"
+        />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        />
+
+
+</LinearLayout>
